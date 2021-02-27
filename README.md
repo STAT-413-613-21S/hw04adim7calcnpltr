@@ -10,8 +10,7 @@ The goal of hw04adim7calcnpltr is to …
 
 ## Installation
 
-You can install the released version of hw04adim7calcnpltr from
-[CRAN](https://CRAN.R-project.org) with:
+This package is only available by permission of the author at:
 
 ``` r
 install.packages("hw04adim7calcnpltr")
