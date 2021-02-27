@@ -1,15 +1,14 @@
 Package: hw04adim7calcnpltr
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Calculates n Given A Three Element Vector or Tibble and Creates a Line Plot
+Version: 1.0.0.0000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Adim",
+           family = "Okwudishu",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "adimkris@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Takes a 4 column tibble and calculates n as output, then creates a line plot
+License: `use_mit_license()`
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
