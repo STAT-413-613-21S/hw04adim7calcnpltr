@@ -15,9 +15,9 @@ calcn_lineplot <- function(df){
     lineplot_df <- cbind(df, output)
     n <- df[[4]]
     lineplot <- lineplot_df %>%
-      ggplot2::ggplot(aes(x = n, y = output)) +
-      geom_line() +
-      labs(subtitle = "My Sequence: c(3, 2.5, 2.7, 2.783, 2.755, 2.744, 2.748, 2.749, 2.748)")
+      ggplot2::ggplot(ggplot2::aes(x = n, y = output)) +
+      ggplot2::geom_line() +
+      ggplot2::labs(subtitle = "My Sequence: c(3, 2.5, 2.7, 2.783, 2.755, 2.744, 2.748, 2.749, 2.748)")
   }
   return(lineplot)
 }
@@ -34,6 +34,6 @@ my_data <- tibble::tribble(
   2,4,3,8,
   2,4,3,9,
   2,4,3,10,
-  2,4,3,12)
+  2,4,3,12) # adding a tbble to test the fucntion
 
 calcn_lineplot(my_data) # this is to test calcn_lineplot function

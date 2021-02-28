@@ -3,5 +3,8 @@
 export("%>%")
 export(calcn)
 export(calcn_lineplot)
+importFrom(ggplot2,aes)
+importFrom(ggplot2,geom_line)
+importFrom(ggplot2,ggplot)
 importFrom(magrittr,"%>%")
 importFrom(tibble,tibble)
