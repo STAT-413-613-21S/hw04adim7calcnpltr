@@ -1,21 +1,19 @@
 # Create it
 
 calcn <- function(x, n) {
-  stopifnot(is.numeric(x))
-  stopifnot(length(x) %% 3 == 0)
-  #stopifnot(is.integer(n))
-  stopifnot(n > 0)
-
-  dplyr::case_when(
-    n >= 1 & n <= 3 ~
-      { x[n] = x[n] })
-
-  calc_vec <- vector(mode = "numeric", length = n)
-  #calc_vec <- calc_vec[1:3]
-  for (i in 4:length(calc_vec)) {
-    x[i] = x[i-1] + ((x[i-3] - x[i-2])/i)
+  stopifnot(length(x) == 3)
+  stopifnot(length(n) == 1)
+  if (n <= 0) {
+    stop("n needs to be greater than 0")
+  } else if (n >= 1 & n <= 3) {
+    return(x[n])
   }
-  return(x[n])
+  calc_vec <- vector(mode = "numeric", length = n)
+  calc_vec[1:3] <- x
+  for (i in 4:length(calc_vec)) {
+    calc_vec[i] <- calc_vec[i-1] + ((calc_vec[i-3] - calc_vec[i-2])/i)
+  }
+  return(calc_vec[n])
 }
 
 
