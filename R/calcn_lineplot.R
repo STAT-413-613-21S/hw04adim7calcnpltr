@@ -3,7 +3,7 @@
 calcn_lineplot <- function(df){
   output <- vector(mode = "integer", length = length(df[[4]])) # vector defining the length of n
   for (i in seq_along(df[[4]])) {
-    output[[i]] <- calcn(x = cbind(df[[1]][i], df[[2]][i], df[[3]][i]), n = df[[4]][i])
+    output[i] <- calcn(x = cbind(df[[1]][i], df[[2]][i], df[[3]][i]), n = df[[4]][i])
     lineplot_df <- cbind(df, output)
     lineplot <- lineplot_df %>%
       ggplot2::ggplot(aes(x = n, y = output)) +
