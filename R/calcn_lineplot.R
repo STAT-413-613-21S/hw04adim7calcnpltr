@@ -24,4 +24,4 @@ calcn_lineplot <- function(df){
 
 # Test it
 
-calcn_lineplot(my_data)
+calcn_lineplot(my_data) # this is to test calcn_lineplot function
