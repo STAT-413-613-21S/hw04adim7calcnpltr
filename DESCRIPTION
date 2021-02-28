@@ -17,9 +17,9 @@ Suggests:
     spelling
 Language: en-US
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10),
+    ggplot2
 Imports: 
     dplyr,
-    ggplot2,
     magrittr,
     tibble

@@ -1,5 +1,14 @@
 # Create it
 
+#' Calculates n Given A Three Element Vector
+#'
+#' @param x - a 3 element vector
+#' @param n - an integer
+#'
+#' @return - a numeric value
+#' @export
+#'
+#' @examples
 calcn <- function(x, n) {
   stopifnot(length(x) == 3)
   stopifnot(length(n) == 1)
