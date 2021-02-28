@@ -6,7 +6,7 @@
 #'
 #' @return a line plot
 #' @export
-#'
+#' @importFrom ggplot2 ggplot aes geom_line
 #' @examples
 calcn_lineplot <- function(df){
   output <- vector(mode = "integer", length = length(df[[4]])) # vector defining the length of n

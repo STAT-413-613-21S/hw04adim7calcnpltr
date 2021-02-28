@@ -18,6 +18,6 @@ Suggests:
 Language: en-US
 Imports: 
     dplyr,
-    ggplot2
     magrittr,
-    tibble
+    tibble,
+    ggplot2
