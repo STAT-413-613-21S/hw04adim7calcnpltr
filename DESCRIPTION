@@ -7,9 +7,12 @@ Authors@R:
            role = c("aut", "cre"),
            email = "adimkris@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Takes a 4 column tibble and calculates n as output, then creates a line plot
-License: `use_mit_license()`
+Description: Takes a 4 column tibble and calculates n as output, then creates a line plot.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    spelling
+Language: en-US
