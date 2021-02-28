@@ -1,5 +1,13 @@
 # Create it
 
+#' Line Plot from recursive function
+#' Takes output of the calcn() applied o a tibble and creates a line plot
+#' @param df a n x 4 tibble
+#'
+#' @return a line plot
+#' @export
+#'
+#' @examples
 calcn_lineplot <- function(df){
   output <- vector(mode = "integer", length = length(df[[4]])) # vector defining the length of n
   for (i in seq_along(df[[4]])) {
