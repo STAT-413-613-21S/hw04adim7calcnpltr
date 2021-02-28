@@ -1,3 +1,4 @@
+# Create it
 
 calcn <- function(x, n) {
   stopifnot(is.numeric(x))
@@ -5,7 +6,7 @@ calcn <- function(x, n) {
   #stopifnot(is.integer(n))
   stopifnot(n > 0)
 
-  case_when(
+  dplyr::case_when(
     n >= 1 & n <= 3 ~
       { x[n] = x[n] })
 
