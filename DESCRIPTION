@@ -23,3 +23,5 @@ Imports:
     magrittr,
     tibble,
     ggplot2
+URL: https://github.com/STAT-413-613-21S/hw04adim7calcnpltr
+BugReports: https://github.com/STAT-413-613-21S/hw04adim7calcnpltr/issues

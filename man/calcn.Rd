@@ -23,9 +23,3 @@ calcn(x, n)
 \description{
 Calculates n Given A Three Element Vector
 }
-\examples{
-library(hw04adim7calcnpltr)
-x = c(2, 4, 3), n = 3
-Calculate sequence
-calcn(c(2,3,3), 3L) # Run
-}
