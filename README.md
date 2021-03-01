@@ -7,6 +7,10 @@
 <!-- badges: end -->
 
 The goal of hw04adim7calcnpltr is to …
+ 
+1. Take as input a vector x containing the first three numeric elements of a sequence and a positive (>0) integer n denoting the final nth element of the sequence and calculate. The function should return element n.
+ 
+2. Accepts four column data frames with the first three columns as numeric values to be input in `calcn()` and the fourth column as a positive integer for a sequence to be generated and then return a line plot of th eoutput value  for the different values of n
 
 ## Installation
 
