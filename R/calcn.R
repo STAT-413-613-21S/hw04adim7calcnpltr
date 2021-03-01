@@ -9,7 +9,6 @@
 #' @export
 #'
 #' @examples
-
 calcn <- function(x, n) {
   stopifnot(length(x) == 3)
   stopifnot(length(n) == 1)
