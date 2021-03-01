@@ -8,7 +8,12 @@
 #' @return - a numeric value
 #' @export
 #'
-#' @examples
+#' @examples library(hw04adim7calcnpltr)
+## basic example code
+#' x = c(2, 4, 3), n = 3
+#' Calculate sequence
+#' calcn(c(2,3,3), 3L) # Run
+
 calcn <- function(x, n) {
   stopifnot(length(x) == 3)
   stopifnot(length(n) == 1)

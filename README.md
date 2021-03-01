@@ -6,7 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of hw04adim7calcnpltr is to …
+The goal of hw04adim7calcnpltr is to 
+1. Take as input a vector x containing the first three numeric elements of a sequence and a positive (>0) integer n denoting the final nth element of the sequence and calculate. The function should return element n.
+2. Accepts four column data frames with the first three columns as numeric values to be input in `calcn()` and the fourth column as a positive integer for a sequence to be generated and then return a line plot of th eoutput value  for the different values of n
 
 ## Installation
 
@@ -24,20 +26,31 @@ This is a basic example which shows you how to solve a common problem:
 library(hw04adim7calcnpltr)
 ## basic example code
 ```
+x = c(2, 4, 3), n = 3
+
+# Calculate sequence
+
+calcn(c(2,3,3), 3L) # Run
 
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+my_data <- tibble::tribble(
+  ~x, ~y, ~z, ~n,
+  2,4,3,3,
+  2,4,3,4,
+  2,4,3,5,
+  2,4,3,6,
+  2,4,3,7,
+  2,4,3,8,
+  2,4,3,9,
+  2,4,3,10,
+  2,4,3,12)
 ```
+
+calcn_lineplot(my_data)
+
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date. `devtools::build_readme()` is handy for this. You could also
