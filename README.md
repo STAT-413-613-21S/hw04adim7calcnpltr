@@ -21,7 +21,14 @@ install.packages("hw04adim7calcnpltr")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-# library(hw04adim7calcnpltr)
+library(hw04adim7calcnpltr)
+## basic example code
+
+# x = c(2, 4, 3), n = 12)
+
+# Calculate sequence
+calcn(c(2, 4, 3), 12L) # Run
+#> [1] 2.748186
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
