@@ -6,9 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of hw04adim7calcnpltr is to 
-1. Take as input a vector x containing the first three numeric elements of a sequence and a positive (>0) integer n denoting the final nth element of the sequence and calculate. The function should return element n.
-2. Accepts four column data frames with the first three columns as numeric values to be input in `calcn()` and the fourth column as a positive integer for a sequence to be generated and then return a line plot of th eoutput value  for the different values of n
+The goal of hw04adim7calcnpltr is to …
 
 ## Installation
 
@@ -23,14 +21,8 @@ install.packages("hw04adim7calcnpltr")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(hw04adim7calcnpltr)
-## basic example code
+# library(hw04adim7calcnpltr)
 ```
-x = c(2, 4, 3), n = 3
-
-# Calculate sequence
-
-calcn(c(2,3,3), 3L) # Run
 
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
@@ -48,9 +40,6 @@ my_data <- tibble::tribble(
   2,4,3,10,
   2,4,3,12)
 ```
-
-calcn_lineplot(my_data)
-
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date. `devtools::build_readme()` is handy for this. You could also
