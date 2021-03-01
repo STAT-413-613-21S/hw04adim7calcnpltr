@@ -8,6 +8,14 @@
 \description{
 Takes a 4 column tibble and calculates n as output, then creates a line plot.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/STAT-413-613-21S/hw04adim7calcnpltr}
+  \item Report bugs at \url{https://github.com/STAT-413-613-21S/hw04adim7calcnpltr/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Adim Okwudishu \email{adimkris@gmail.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
